@@ -1,0 +1,62 @@
+/*上の青いやつ*/
+hr {
+    height: 50px;
+    background-color: blue;
+    width: 150%;
+    border: none;
+   }
+  
+   /*上の青いやつの空白を消す*/
+   * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    
+table th{
+width: 80px;/* 位置調整 */
+height: 0px;/* 位置調整 */
+}
+
+.txt2 {
+    font-size: 3vw;/* 文字サイズ指定 */
+}
+
+/* 在席一覧の文字 */
+.size_test {
+    font-size:  40px;    /* 文字サイズ指定 */
+    text-align:center; /* 文字を中心へ */
+}
+
+/* 表の位置 */
+ /* まとめて指定する場合 */
+ table {
+    margin: 3px auto;    /* 上下3px 左右auto */
+}
+table {
+    border-collapse: collapse;
+    border:1px white solid;
+  }
+
+  th {
+    background-color: #2c88d9;
+    color: #FFF;
+    border:1px white solid;
+  }
+  /* 奇数行のスタイル */
+table.sample tr:nth-child(odd){
+    background-color:#EAF6FF;
+  }
+   
+  /* 偶数行のスタイル */
+  table.sample tr:nth-child(even){
+    background-color:#B7E1FE;
+  }
+
+   /* トップへの位置 */
+#child_flame {
+    position: absolute;
+   
+    right: 0px;  /** 場合によっては微調整 **/
+    font-size:x-large;
+}

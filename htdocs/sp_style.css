@@ -1,0 +1,58 @@
+@media screen and (max-width:480px){
+    /*上の青いやつ*/
+    hr {
+        height: 20px;
+        background-color: blue;
+        width: 150%;
+        border: none;
+       }
+
+/*上の青いやつの空白を消す*/
+ * {
+  margin: 0px;
+  padding: 0px;
+}
+
+    /*一覧ボタン*/
+.btn {
+    font-size: 100px;
+    border-radius: 5px;/* ボタンの丸み */
+    background-color: orange;/* ボタン色 */
+    border-bottom: solid 3px goldenrod;
+    box-shadow: 3px 3px 3px gray;/*border-bottomとbox-shadowは影  */
+    padding: 60px;/* ボタン全体色 */
+    text-decoration: none;
+    color: white;/* 文字カラー */
+    width: 50px;
+    height: 20px;
+    position: relative; /* 今の位置を基準 */
+    top: 50px; /* 上から10px */
+ }
+ /*一覧中央へ*/
+div { 
+    text-align : center ; 
+}
+/*submitを装飾*/
+.decorated-btn {
+    background-color: orange;
+    font-size: 40px;
+    color: white;
+    border-radius: 5px;
+    border-bottom: solid 3px goldenrod;
+    box-shadow: 3px 3px 3px gray;
+    transition: 0.3s;
+    margin : 10px ;
+    padding : 40px ;
+    width: 250px;
+    height: 150px;
+  }
+  
+  .click-down:active {
+    transform: translateY(2px);
+    border-bottom: none;
+  }
+  
+  .decorated-btn:hover {
+    background-color: orange;
+  }
+}

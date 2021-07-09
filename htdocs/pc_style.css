@@ -1,0 +1,85 @@
+
+/*上の青いやつ*/
+hr {
+  height: 50px;
+  background-color: blue;
+  width: 150%;
+  border: none;
+ }
+
+ /*上の青いやつの空白を消す*/
+ * {
+      margin: 0px;
+      padding: 0px;
+  }
+  
+	/*テキストボックス大きさ*/
+input.hoge { 
+  width: 20%; 
+ }
+    
+    /*一覧ボタン*/
+.btn {
+  font-size: 50px;/* 文字サイズ */
+  border-radius: 5px;/* ボタンの丸み */
+  background-color: orange;/* ボタン色 */
+  border-bottom: solid 3px goldenrod;
+  box-shadow: 3px 3px 3px gray;/*border-bottomとbox-shadowは影  */
+  padding: 40px;/* ボタン全体色 */
+  text-decoration: none;
+  color: white;/* 文字カラー */
+  width: 256px;
+  height: 256px;
+  position: relative; /* 今の位置を基準 */
+  top: 100px;
+}
+
+/*文字を中央で*/
+div { 
+  text-align : center ; 
+}
+
+/*submitを装飾*/
+.decorated-btn {
+    background-color: orange;
+    font-size: 100px;
+    color: white;
+    border-radius: 5px;
+    border-bottom: solid 3px goldenrod;
+    box-shadow: 3px 3px 3px gray;
+    transition: 0.3s;
+    margin-top: 40px;/* submitボタンの上からの位置を調整 */
+    margin-right:90px;/* submitボタンの間隔を調整 */
+    margin-left:90px;/* submitボタンの間隔を調整 */
+ 
+  }
+
+  
+  .click-down:active {
+    transform: translateY(2px);
+    border-bottom: none;
+  }
+  
+  
+  .decorated-btn:hover {
+    background-color: orange;
+  }
+
+/*次へボタン*/
+ .btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: orange;
+}
+
+.btn--orange{
+  margin-right: 40px;
+}
+
+/*一覧テーブル中央*/
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+
